@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blanchedalmond;
+}
+.titulocentral{
+    text-align: center;
+    margin-top: 50px;
+}
+.fotoLogo{
+display: flex;
+    width: 150px;
+    height: 150px;  
+    justify-content: left;     
+}
+#men{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: black;
+    
+}
+#men li a{
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+.fotolocal{
+    width: 100%;
+    height: auto;
+}
+.logosredes{
+    background-color: white;
+}
+#grid__template{
+    display: grid;
+    background-color: white; 
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 2fr 2fr;
+}
+.contactame{
+    text-align: center;
+    padding-top: 50px;
+}
+.formulario{
+    text-align: center;
+}
+#nombreformulario{
+    justify-content: space-around;
+    padding-top: 100px;
+}
+#correoformulario{
+    justify-content: space-around;
+    padding-top: 100px;
+}
+#consultaformulario{
+    justify-content: space-around;
+    padding-top: 100px;
+}
+#agregatunombre{
+    width: 300px;
+    height: 30px;
+}
+#agregatucorreo{
+    width: 300px;
+    height: 30px;
+}
+#agregatuconsulta{
+    width: 500px;
+    height: 300px;
+}
