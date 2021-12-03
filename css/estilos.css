@@ -3,16 +3,24 @@
     padding: 0;
 }
 body{
-    background-color: blanchedalmond;
+    background-color: black;
 }
-.titulocentral{
+.titulocentral{ /*Titulo principal*/
+    display: flex;
+    margin-left: 420px;
+    font-size: 60px;/*tamano del titulo*/
+    color:white;
     text-align: center;
     margin-top: 50px;
 }
+.referenciatitulo{
+    color: white;
+    margin-left: 470px;
+}
 .fotoLogo{
 display: flex;
-    width: 150px;
-    height: 150px;  
+    width: 250px;
+    height: 250px;  
     justify-content: left;     
 }
 #men{
@@ -32,7 +40,7 @@ font-size: 30px;
     height: auto;
 }
 .logosredes{
-    background-color: white;
+    background-color: black;
 }
 #grid__template{
     display: grid;
@@ -41,6 +49,7 @@ font-size: 30px;
     grid-template-rows: 2fr 2fr;
 }
 .contactame{
+    color: white;
     text-align: center;
     padding-top: 50px;
 }
@@ -51,6 +60,9 @@ font-size: 30px;
     justify-content: space-around;
     padding-top: 100px;
 }
+.correo{
+    color: white;
+}
 #correoformulario{
     justify-content: space-around;
     padding-top: 100px;
@@ -58,6 +70,9 @@ font-size: 30px;
 #consultaformulario{
     justify-content: space-around;
     padding-top: 100px;
+}
+.nombre{
+color: white;
 }
 #agregatunombre{
     width: 300px;
@@ -71,3 +86,11 @@ font-size: 30px;
     width: 500px;
     height: 300px;
 }
+.parrafoquienessomos{
+    color: white;
+}
+.bi {
+    color: white;
+}
+
+
