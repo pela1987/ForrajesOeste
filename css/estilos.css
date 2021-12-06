@@ -5,13 +5,15 @@
 body{
     background-color: black;
 }
+.fototitulo{
+    display: flex;
+}
 .titulocentral{ /*Titulo principal*/
     display: flex;
     margin-left: 420px;
     font-size: 60px;/*tamano del titulo*/
     color:white;
     text-align: center;
-    margin-top: 50px;
 }
 .referenciatitulo{
     color: white;
