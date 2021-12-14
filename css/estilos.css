@@ -37,7 +37,7 @@ color: white;
 text-decoration: none;
 font-size: 30px;
 }
-.fotolocal{
+.fotogatito{
     width: 100%;
     height: auto;
 }
@@ -47,8 +47,8 @@ font-size: 30px;
 #grid__template{
     display: grid;
     background-color: white; 
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr ;
 }
 .contactame{
     color: white;
@@ -100,5 +100,19 @@ color: white;
 .mapa{
     margin-left: 500px;
 }
-
-
+.navegadorproductos li a{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.fotogatitoproductos {
+    width: auto;
+    height: auto;
+}
