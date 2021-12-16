@@ -48,7 +48,7 @@ font-size: 30px;
     display: grid;
     background-color: white; 
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
 }
 .contactame{
     color: white;
