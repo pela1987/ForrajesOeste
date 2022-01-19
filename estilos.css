@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.titulocentral {
+  /*Titulo principal*/
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 10%;
+  margin-left: 30px;
+  font-size: 80px;
+  /*tamano del titulo*/
+  color: white;
+}
+
+.referenciatitulo {
+  color: white;
+  margin-left: 30px;
+}
+
+.fotoLogo {
+  width: 250px;
+  height: 250px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+#men {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#men li a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.fotogatito {
+  width: 100%;
+  height: auto;
+}
+
+#grid__template {
+  display: -ms-grid;
+  display: grid;
+  background-color: white;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+.logosredes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.contactame {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.formulario {
+  text-align: center;
+}
+
+#nombreformulario {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 100px;
+}
+
+.correo {
+  color: white;
+}
+
+#correoformulario {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 100px;
+}
+
+#consultaformulario {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 100px;
+}
+
+.nombre {
+  color: white;
+}
+
+#agregatunombre {
+  width: 300px;
+  height: 30px;
+}
+
+#agregatucorreo {
+  width: 300px;
+  height: 30px;
+}
+
+.tuconsulta {
+  color: white;
+}
+
+#agregatuconsulta {
+  width: 500px;
+  height: 300px;
+}
+
+.parrafoquienessomos {
+  color: white;
+}
+
+.colorlogo {
+  color: white;
+}
+
+.bi {
+  color: white;
+}
+
+.mapa {
+  margin-left: 500px;
+}
+
+.navegadorproductos li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+}
+
+.fotogatitoproductos {
+  width: auto;
+  height: auto;
+}
+
+.carousel-caption {
+  color: black;
+}
+
+.carousel slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#carouselExampleCaptions {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=estilos.css.map */
