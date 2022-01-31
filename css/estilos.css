@@ -3,89 +3,139 @@
     padding: 0;
 }
 body{
-    background-color: black;
+    background: rgb(56,55,130); /*fondo degrade Negro hacia Azul*/
+    background: linear-gradient(0deg, rgba(56,55,130,1) 0%, rgba(0,0,0,1) 100%);
 }
 .header{
     display: flex;
 }
 .titulocentral{ /*Titulo principal*/
-    margin-top: 10%;
-    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10%; /*espacio margen de arriba del titulo*/
+    margin-left: 30px; /*espacio margen izquierdo del titulo*/
     font-size: 80px;/*tamano del titulo*/
-    color:white;
+    color:white; /*color del titulo*/
     
 }
-.referenciatitulo{
-    color: white;
-    margin-left: 30px;
+.referenciatitulo{ /*subtitulo de todas las paginas*/
+    color: white;/*color del subtitulo*/
+    margin-left: 30px;/*espacio margen izquierdo del subtitulo*/
+    font-size: 25px;/*tamano del subtitulo*/
 }
 .fotoLogo{
-    width: 250px;
-    height: 250px;  
-    justify-content: left;     
+    width: 250px;/*ancho fotologo*/
+    height: 250px;/*alto fotologo*/  
+    justify-content: left;/*posicion izquierda de fotologo*/     
 }
-#men{
+#men{/*menu*/
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: black;/*color de fondo del menu*/
     margin-top: 20px;
     margin-bottom: 20px;
+    box-sizing: border-box;
+}
+@media (min-width: 320px) and (max-width: 1024px)/*configuracion resposive*/
+  {
+      #men{/*menu*/
+          display: flex;
+          flex-direction: column;
+          background-color:grey; 
+      } 
+      .fotoLogo{/*foto logo desaparece*/
+          display: none;
+      }
+      .titulocentral{/*titulo central*/
+          display: flex;
+          font-size: 40px;
+      }
+      .referenciatitulo{/*subtitulo desaparece*/
+          display: none;
+      }
+      .fotogatito{/*foto gatito desaparece*/
+          display: none;
+      }
 }
 #men li a{
 color: white;
 text-decoration: none;
 font-size: 30px;
 }
-.fotogatito{
-    width: 100%;
-    height: auto;
+.nuestrasofertas{ /*nuestas ofertas titulo*/
+    font-family: fantasy;
+    font-size: 60px;
 }
-#grid__template{
+.aprovechaofertas{ /*subtitulo de  nuestras ofertas*/
+    font-family: fantasy;
+    font-size: 30px;
+}
+.fotogatito{/*foto gatito*/
+    width: 100%;/*ancho foto gatito*/
+    height: 50%;/* alto foto gatito*/
+}
+.parrafoinffotgat{/*frase decorativa color rosa*/
+    color: lightpink;/*color de letra frase decorativa*/
+    font-family: fantasy;/*tipo de letra frase decorativa*/
+    font-size: 100px;/*tamano de letra frase decorativa*/
+}
+#grid__template{/* diseno de main*/
+    width: 100%;
+    height: 100%;
     display: grid;
     background-color: white; 
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    box-sizing: border-box;
 }
-.logosredes{
+.logosredes{/*logos redes sociales footer*/
+    height: 30px;
     display: flex;
-    background-color: black;
     justify-content: space-evenly;
-    
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
-.contactame{
+.bi{/*logos redes sociales footer*/
+    font-size: 25px;
     color: white;
+}
+.contactame{/*titulo contactame*/
+    color: white;/*color titulo blanco contactame*/
     text-align: center;
     padding-top: 50px;
+    font-size: 80px;/*tamano titulo contactame*/
 }
-.formulario{
+.formulario{/*formulario para completar*/
     text-align: center;
 }
-#nombreformulario{
+#nombreformulario{/*nombre para completar en formulario de contacto*/
     justify-content: space-around;
     padding-top: 100px;
+    font-size: 40px;
 }
 .correo{
     color: white;
 }
-#correoformulario{
+#correoformulario{/*correo para completar en formulario de contacto*/
     justify-content: space-around;
     padding-top: 100px;
+    font-size: 40px;
 }
-#consultaformulario{
+#consultaformulario{/*consulta para completar en formulario de contacto*/
     justify-content: space-around;
     padding-top: 100px;
+    font-size: 40px;
 }
 .nombre{
 color: white;
 }
 #agregatunombre{
-    width: 300px;
-    height: 30px;
+    width: 400px;
+    height: 50px;
 }
 #agregatucorreo{
-    width: 300px;
-    height: 30px;
+    width: 400px;
+    height: 50px;
 }
 .tuconsulta{
     color: white;
@@ -94,36 +144,89 @@ color: white;
     width: 500px;
     height: 300px;
 }
-.parrafoquienessomos{
-    color: white;
-}
-.bi {
-    color: white;
-}
-.mapa{
-    margin-left: 500px;
-}
-.navegadorproductos li a{
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.main1 {
+.quienessomos{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns:1fr 1fr;
 }
-.fotogatitoproductos {
+.parrafoquienessomos{/*parrafo de quienes somos explicativo de la empresa*/
+    font-family: cursive;
+    font-size: 210%;
+    color: white;
+}
+.fotogatitoQS{/*foto gatito de quienes somos*/
     width: auto;
     height: auto;
 }
-.carousel-caption {
-    color: black;
+.fotogatitoQS1{/*foto gatito de quienes somos*/
+    width: 1000px;
+    height: 700px;
 }
-.carousel slide{
+.colorlogo{
+    color: white;
+}
+.mapa{/*mapa de ubicacion*/
+    font-size: 500px;
+    margin-left: 500px;
+}
+.main1{
+    display: grid;
+    grid-template-rows: 10fr;
+}
+.TP{/* titulos de descripcion de productos*/
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+.IMG{/*imagenes de productos*/
+    width: 180px;
+    height: 200px;
+    border-radius: 20%;
+}
+.DF{/*divisores de imagenes*/
     display: flex;
-    width: 50px;
-    height: 50px;
+    justify-content: space-evenly;
+}  
+@media (min-width: 320px) and (max-width: 1544px)/*configuracion responsive*/
+{
+    .nuestrasofertas{/*titulo de nuestras ofertas*/
+        display: flex;
+        font-size: 30px;
+    }
+    .aprovechaofertas{/*subtitulo de nuestras ofertas desaparece*/
+        display: none;
+    }
+    .parrafoinffotgat{/*frase decorativa*/
+        display: flex;
+        font-size: 40px;
+    }
+    .logosredes{/*logos redes sociales*/
+        display: flex;
+        height: 120px;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .bi{/*logos redes sociales*/
+        font-size: 15px;
+    }
+    .IMG{/*imagenes de productos*/
+        width: 80px;
+        height: 100px;
+    }
+    .TP{/*titulos de productos*/
+        font-size: 15px;
+    }
+    .fotogatitoQS{/*foto gatito quienes somos*/
+        display: none;
+    }
+    .parrafoquienessomos{/*parrafo descriptivo de la empresa en quienes somos*/
+        font-size: 15px;
+    }
+    .mapa{/*mapa*/
+        margin-left: auto;
+    }
 }
