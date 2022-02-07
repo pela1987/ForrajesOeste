@@ -36,7 +36,7 @@ body{
     margin-bottom: 20px;
     box-sizing: border-box;
 }
-@media (min-width: 320px) and (max-width: 1024px)/*configuracion resposive*/
+@media (min-width: 320px) and (max-width: 1029px)/*configuracion resposive*/
   {
       #men{/*menu*/
           display: flex;
@@ -77,7 +77,7 @@ font-size: 30px;
 .parrafoinffotgat{/*frase decorativa color rosa*/
     color: lightpink;/*color de letra frase decorativa*/
     font-family: fantasy;/*tipo de letra frase decorativa*/
-    font-size: 100px;/*tamano de letra frase decorativa*/
+    font-size: 75px;/*tamano de letra frase decorativa*/
 }
 #grid__template{/* diseno de main*/
     width: 100%;
@@ -150,7 +150,7 @@ color: white;
 }
 .parrafoquienessomos{/*parrafo de quienes somos explicativo de la empresa*/
     font-family: cursive;
-    font-size: 210%;
+    font-size: 145%;
     color: white;
 }
 .fotogatitoQS{/*foto gatito de quienes somos*/
@@ -158,15 +158,15 @@ color: white;
     height: auto;
 }
 .fotogatitoQS1{/*foto gatito de quienes somos*/
-    width: 1000px;
-    height: 700px;
+    width: 700px;
+    height: 500px;
 }
 .colorlogo{
     color: white;
 }
 .mapa{/*mapa de ubicacion*/
-    font-size: 500px;
-    margin-left: 500px;
+    font-size: 100px;
+    margin-left: 200px;
 }
 .main1{
     display: grid;
@@ -190,7 +190,7 @@ color: white;
     display: flex;
     justify-content: space-evenly;
 }  
-@media (min-width: 320px) and (max-width: 1544px)/*configuracion responsive*/
+@media (min-width: 320px) and (max-width: 1040px)/*configuracion responsive*/
 {
     .nuestrasofertas{/*titulo de nuestras ofertas*/
         display: flex;
@@ -205,7 +205,7 @@ color: white;
     }
     .logosredes{/*logos redes sociales*/
         display: flex;
-        height: 120px;
+        height: 100px;
         flex-direction: column;
         margin-top: 20px;
         margin-bottom: 25px;
